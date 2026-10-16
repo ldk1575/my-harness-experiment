@@ -1,0 +1,48 @@
+{
+  "run_id": "08_parse-log_B_r2",
+  "index": 8,
+  "task": "parse-log",
+  "condition": "B",
+  "rep": 2,
+  "started": "2026-10-16T15:49:50+09:00",
+  "ended": "2026-10-16T15:50:22+09:00",
+  "wall_s": 31.8,
+  "exit_code": 0,
+  "visible_ok": true,
+  "hidden_ok": true,
+  "test_file_unchanged": true,
+  "visible_log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.539s\n\nOK\n",
+  "hidden_log": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.583s\n\nOK\n",
+  "files_after": [
+    "parse.py",
+    "sample.log",
+    "test_parse.py"
+  ],
+  "passed": true,
+  "metrics": {
+    "hooks_started": 0,
+    "tool_calls": {
+      "Bash": 2,
+      "Write": 1
+    },
+    "first_request_input": 31782,
+    "tools_count": 29,
+    "skills_count": 0,
+    "plugins_count": 3,
+    "mcp_servers_count": 0,
+    "result_subtype": "success",
+    "is_error": false,
+    "duration_ms": 27651,
+    "num_turns": 4,
+    "cost_usd": 0.0487,
+    "input_tokens": 6,
+    "cache_creation": 6182,
+    "cache_read": 92097,
+    "output_tokens": 1472,
+    "total_input": 98285,
+    "permission_denials": 0,
+    "edits": 1,
+    "skill_calls": 0,
+    "tool_calls_total": 3
+  }
+}

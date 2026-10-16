@@ -1,0 +1,48 @@
+{
+  "run_id": "04_refactor-util_B_r1",
+  "index": 4,
+  "task": "refactor-util",
+  "condition": "B",
+  "rep": 1,
+  "started": "2026-10-16T15:45:34+09:00",
+  "ended": "2026-10-16T15:46:00+09:00",
+  "wall_s": 25.9,
+  "exit_code": 0,
+  "visible_ok": true,
+  "hidden_ok": true,
+  "test_file_unchanged": true,
+  "visible_log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.001s\n\nOK\n",
+  "hidden_log": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.002s\n\nOK\n",
+  "files_after": [
+    "test_util.py",
+    "util.py"
+  ],
+  "passed": true,
+  "metrics": {
+    "hooks_started": 0,
+    "tool_calls": {
+      "Read": 1,
+      "Write": 1,
+      "Bash": 1
+    },
+    "first_request_input": 31630,
+    "tools_count": 29,
+    "skills_count": 0,
+    "plugins_count": 3,
+    "mcp_servers_count": 0,
+    "result_subtype": "success",
+    "is_error": false,
+    "duration_ms": 21307,
+    "num_turns": 4,
+    "cost_usd": 0.0397,
+    "input_tokens": 6,
+    "cache_creation": 5144,
+    "cache_read": 91207,
+    "output_tokens": 995,
+    "total_input": 96357,
+    "permission_denials": 0,
+    "edits": 1,
+    "skill_calls": 0,
+    "tool_calls_total": 3
+  }
+}

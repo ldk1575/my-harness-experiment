@@ -1,0 +1,51 @@
+{
+  "run_id": "07_parse-log_A_r2",
+  "index": 7,
+  "task": "parse-log",
+  "condition": "A",
+  "rep": 2,
+  "started": "2026-10-16T15:47:54+09:00",
+  "ended": "2026-10-16T15:49:46+09:00",
+  "wall_s": 111.5,
+  "exit_code": 0,
+  "visible_ok": true,
+  "hidden_ok": true,
+  "test_file_unchanged": true,
+  "visible_log": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.583s\n\nOK\n",
+  "hidden_log": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.661s\n\nOK\n",
+  "files_after": [
+    "PRD.md",
+    "parse.py",
+    "sample.log",
+    "test_parse.py",
+    "작업기록.md"
+  ],
+  "passed": true,
+  "metrics": {
+    "hooks_started": 8,
+    "tool_calls": {
+      "Bash": 5,
+      "Read": 1,
+      "Write": 4
+    },
+    "first_request_input": 62586,
+    "tools_count": 358,
+    "skills_count": 220,
+    "plugins_count": 24,
+    "mcp_servers_count": 22,
+    "result_subtype": "success",
+    "is_error": false,
+    "duration_ms": 99091,
+    "num_turns": 11,
+    "cost_usd": 0.2823,
+    "input_tokens": 18,
+    "cache_creation": 44213,
+    "cache_read": 552631,
+    "output_tokens": 5012,
+    "total_input": 596862,
+    "permission_denials": 2,
+    "edits": 4,
+    "skill_calls": 0,
+    "tool_calls_total": 10
+  }
+}

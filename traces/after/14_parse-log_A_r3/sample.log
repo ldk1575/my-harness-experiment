@@ -1,0 +1,10 @@
+2026-10-16 09:00:01 INFO server started on port 8080
+2026-10-16 09:00:05 INFO connected to database
+2026-10-16 09:01:12 WARNING slow query took 1.8s
+2026-10-16 09:02:30 ERROR payment gateway timeout
+2026-10-16 09:02:31 INFO retrying payment request
+2026-10-16 09:03:44 ERROR order 1042 failed validation: missing address
+2026-10-16 09:05:00 INFO user searched for ERROR codes
+2026-10-16 09:06:18 DEBUG cache hit ratio 0.92
+2026-10-16 09:07:02 ERROR disk usage above 95%
+2026-10-16 09:08:10 WARNING memory usage above 80%

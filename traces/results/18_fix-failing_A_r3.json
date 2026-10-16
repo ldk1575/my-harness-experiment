@@ -1,0 +1,46 @@
+{
+  "run_id": "18_fix-failing_A_r3",
+  "index": 18,
+  "task": "fix-failing",
+  "condition": "A",
+  "rep": 3,
+  "started": "2026-10-16T15:56:50+09:00",
+  "ended": "2026-10-16T15:57:21+09:00",
+  "wall_s": 30.6,
+  "exit_code": 0,
+  "visible_ok": true,
+  "hidden_ok": true,
+  "test_file_unchanged": true,
+  "visible_log": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n",
+  "hidden_log": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n",
+  "files_after": [
+    "cart.py",
+    "test_me.py"
+  ],
+  "passed": true,
+  "metrics": {
+    "hooks_started": 8,
+    "tool_calls": {
+      "Bash": 3
+    },
+    "first_request_input": 58376,
+    "tools_count": 358,
+    "skills_count": 220,
+    "plugins_count": 24,
+    "mcp_servers_count": 22,
+    "result_subtype": "success",
+    "is_error": false,
+    "duration_ms": 24424,
+    "num_turns": 4,
+    "cost_usd": 0.1871,
+    "input_tokens": 8,
+    "cache_creation": 39543,
+    "cache_read": 211678,
+    "output_tokens": 779,
+    "total_input": 251229,
+    "permission_denials": 0,
+    "edits": 0,
+    "skill_calls": 0,
+    "tool_calls_total": 3
+  }
+}
